@@ -1,0 +1,28 @@
+body {
+    background-color: black; /* Dark green and brown mix */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    background-color: darkgreen; /* Green */
+}
+
+.game-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.snake {
+    fill: #8B4513; /* Brown */
+    stroke: #fff;
+}
+
+.food {
+    fill: #ff0000; /* Red */
+}
